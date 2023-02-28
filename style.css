@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+hr {
+    background-color: black;
+    border: none;
+    height: 1px;
+}
+
+
+/*sobre a barra de cima do site*/
+#listalinkcorpo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(60, 179, 113);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+li a:hover {
+    background-color:rgb(32, 94, 60);
+}
+
+#d {
+    float: right;
+}
+
+
+/* sobre os divs principais do site*/
+.informações {
+    margin: 60px 20px 0px 20px;
+}
+
+#caixa1 {
+    max-width: 500px;
+    padding: 8px;
+    margin: 0px 0px 60px 60px;
+    width: 50%;
+    box-shadow: -10px 10px ;
+    background-color: tomato;
+}
+
+#caixa2 {
+    max-width: 500px;
+    padding: 8px;
+    width: 50%;
+    float: right;
+    margin-right: 60px ;
+    box-shadow: 10px 10px;
+    background-color: deepskyblue;
+}
+
+#caixa1 p {
+    margin: 0px;
+}
+
+#caixa2 p {
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    #caixa1, #caixa2 {
+        float: left;
+        width: 100%;
+        margin-right: 60px ;
+        max-width: fit-content;
+    }
+
+    #caixa2 {
+        margin-left: 60px;
+        box-shadow: -10px 10px;
+    }
+
+    #vazionav {
+        width: 0px;
+    }
+    
+    #a, #b, #c, #d {
+        width: 25%;
+    }
+    
+}
