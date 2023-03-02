@@ -3,13 +3,6 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-hr {
-    background-color: black;
-    border: none;
-    height: 1px;
-}
-
-
 /*sobre a barra de cima do site*/
 #listalinkcorpo {
     list-style-type: none;
@@ -74,6 +67,15 @@ li a:hover {
 #caixa2 p {
     margin: 0;
 }
+
+#interesses {
+    border-top: 60px;
+}
+
+
+
+
+
 
 @media screen and (max-width: 800px) {
     #caixa1, #caixa2 {
