@@ -41,23 +41,23 @@ li a:hover {
     margin: 60px 20px 0px 20px;
 }
 
-#caixa1 {
+#caixa1, #caixa2 {
     max-width: 500px;
     padding: 8px;
     margin: 0px 0px 60px 60px;
     width: 50%;
+}
+#caixa1 {
     box-shadow: -10px 10px ;
     background-color: tomato;
 }
 
 #caixa2 {
-    max-width: 500px;
-    padding: 8px;
-    width: 50%;
     float: right;
-    margin-right: 60px ;
+    margin-right: 60px;
     box-shadow: 10px 10px;
     background-color: deepskyblue;
+    display: inline-block;
 }
 
 #caixa1 p {
