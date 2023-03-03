@@ -41,7 +41,7 @@ li a:hover {
     margin: 60px 20px 0px 20px;
 }
 
-#caixa1, #caixa2 {
+#caixa1, #caixa2, #caixalimite {
     max-width: 500px;
     padding: 8px;
     margin: 0px 0px 60px 60px;
@@ -55,9 +55,13 @@ li a:hover {
 #caixa2 {
     float: right;
     margin-right: 60px;
-    margin-left: 100%;
     box-shadow: 10px 10px;
     background-color: deepskyblue;
+}
+
+#caixalimite {
+    visibility: hidden;
+    height: 150px;
 }
 
 #caixa1 p {
@@ -70,7 +74,7 @@ li a:hover {
 
 #interesses {
     border-top: 60px;
-    display: block;
+    clear: right;
 }
 
 
@@ -91,8 +95,8 @@ li a:hover {
         box-shadow: -10px 10px;
     }
 
-    #vazionav {
-        width: 0px;
+    #caixalimite {
+        display: none;
     }
     
     #a, #b, #c, #d {
