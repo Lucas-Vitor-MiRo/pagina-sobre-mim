@@ -55,6 +55,7 @@ li a:hover {
 #caixa2 {
     float: right;
     margin-right: 60px;
+    margin-left: 100%;
     box-shadow: 10px 10px;
     background-color: deepskyblue;
 }
@@ -69,6 +70,7 @@ li a:hover {
 
 #interesses {
     border-top: 60px;
+    display: block;
 }
 
 
