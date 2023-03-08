@@ -8,7 +8,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: rgb(60, 179, 113);
+    background-color: rgb(153, 86, 32);
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -28,7 +28,7 @@ li a {
 }
 
 li a:hover {
-    background-color:rgb(32, 94, 60);
+    background-color:rgb(119, 61, 23);
 }
 
 #d {
@@ -36,7 +36,7 @@ li a:hover {
 }
 
 
-/* sobre os divs principais do site*/
+/* sobre as divs de 'sobre mim'*/
 .informações {
     margin: 60px 20px 0px 20px;
 }
@@ -49,14 +49,14 @@ li a:hover {
 }
 #caixa1 {
     box-shadow: -10px 10px ;
-    background-color: tomato;
+    background-color: rgb(255, 99, 71, 0.7);
 }
 
 #caixa2 {
     float: right;
     margin-right: 60px;
     box-shadow: 10px 10px;
-    background-color: deepskyblue;
+    background-color: rgb(0, 191, 255, 0.7);
 }
 
 #caixalimite {
@@ -72,14 +72,50 @@ li a:hover {
     margin: 0;
 }
 
+/*sobre as divs de 'interesses'*/
+
 #interesses {
     border-top: 60px;
     clear: right;
 }
 
 
+#caixa4 {
+    background-color: rgba(255, 99, 71, 0.7);
+    padding: 8px;
+    border-radius: 8px;
+}
 
+#caixa4 p{
+    margin: 0;
+}
 
+#tabelatop-1 p{
+    margin-bottom: 5%;
+}
+
+.tabela1 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela1 table, th, td{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.tabela1 th{
+    background-color: rgba(0, 191, 255, 0.7)
+}
+
+#posicao1 {
+    max-width: 10%;
+}
+
+#nometabela1 {
+    text-align: left;
+}
 
 
 @media screen and (max-width: 800px) {
